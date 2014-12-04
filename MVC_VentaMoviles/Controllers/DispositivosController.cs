@@ -18,6 +18,7 @@ namespace MVC_VentaMoviles.Controllers
             var _servicio = DependencyResolver.Current.
                 GetService<IServicios<DispositivosViewModel>>();
             //Lorenzo Lukas
+            //2
             return View(_servicio.Get());
         }
 
