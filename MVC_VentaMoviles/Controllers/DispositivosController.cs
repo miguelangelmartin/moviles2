@@ -19,6 +19,7 @@ namespace MVC_VentaMoviles.Controllers
                 GetService<IServicios<DispositivosViewModel>>();
             //Lorenzo Lukas
             //2
+            //3
             return View(_servicio.Get());
         }
 
